@@ -1,0 +1,148 @@
+{
+  "config": "{\"version\":\"5.55\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU06\",\"version\":\"5.56\",\"type\":2},\"customTheme\":{\"name\":\"Custom3282061126661402.json\",\"version\":\"5.56\",\"type\":1}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true,\"filterPaneHiddenInEditMode\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "publicCustomVisuals": [
+    "enlightenDataStoryDDFB78A6143E42CFAFBC50CCF18D978D",
+    "ImageGrid_FC5183B9_926C_45E0_B5F7_0CE9EAF1DA9B",
+    "ScrollingTextVisual1448795304508"
+  ],
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "Custom3282061126661402.json",
+            "path": "Custom3282061126661402.json",
+            "type": 201
+          },
+          {
+            "name": "Plano_de_Fundo44725083771677565.png",
+            "path": "Plano_de_Fundo44725083771677565.png",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU06",
+            "path": "BaseThemes/CY24SU06.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Plano de Fundo.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Plano_de_Fundo44725083771677565.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fit'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Página 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "37057ce223d47c0e0a12",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"03b2cde5ebeec2d08ce9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":51.550151975683896,\"y\":44.74164133738602,\"z\":1000,\"width\":284.0121580547113,\"height\":90.45592705167174,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"BaseFinanceiro.Recebimento\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"BaseFinanceiro\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Recebimento\"},\"Name\":\"BaseFinanceiro.Recebimento\",\"NativeReferenceName\":\"Recebimento\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Recebimento\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 90.46,
+          "width": 284.01,
+          "x": 51.55,
+          "y": 44.74,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"0e3586fa367179c29575\",\"layouts\":[{\"id\":0,\"position\":{\"x\":995.9878419452888,\"y\":44.74164133738602,\"z\":3000,\"width\":284.0121580547113,\"height\":92.40121580547113,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"BaseFinanceiro.Lucro\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"BaseFinanceiro\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Lucro\"},\"Name\":\"BaseFinanceiro.Lucro\",\"NativeReferenceName\":\"Lucro\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Lucro\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 92.40,
+          "width": 284.01,
+          "x": 995.99,
+          "y": 44.74,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"26952d236d909aa00610\",\"layouts\":[{\"id\":0,\"position\":{\"x\":693.4954407294833,\"y\":49.6048632218845,\"z\":2000,\"width\":235.37993920972644,\"height\":81.70212765957447,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"BaseFinanceiro.Imposto\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"BaseFinanceiro\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Imposto\"},\"Name\":\"BaseFinanceiro.Imposto\",\"NativeReferenceName\":\"Imposto\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Imposto\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 81.70,
+          "width": 235.38,
+          "x": 693.50,
+          "y": 49.60,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"3edaf4a5cb0de1d767c5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":508.69300911854106,\"y\":153.67781155015197,\"z\":6000,\"width\":354.0425531914894,\"height\":259.69604863221883,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Y\":[{\"queryRef\":\"BaseFinanceiro.Total\"},{\"queryRef\":\"BaseFinanceiro.Margem\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"BaseFinanceiro\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Margem\"},\"Name\":\"BaseFinanceiro.Margem\",\"NativeReferenceName\":\"Margem\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Total\"},\"Name\":\"BaseFinanceiro.Total\",\"NativeReferenceName\":\"Total\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Total\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}},\"selector\":{\"metadata\":\"BaseFinanceiro.Margem\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"metadata\":\"BaseFinanceiro.Total\"}}],\"legend\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"9D\"}}}}}],\"slices\":[{\"properties\":{\"innerRadiusRatio\":{\"expr\":{\"Literal\":{\"Value\":\"65L\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 259.70,
+          "width": 354.04,
+          "x": 508.69,
+          "y": 153.68,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"511bba9a90c39637cd8c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":831.6109422492401,\"y\":161.45896656534956,\"z\":8000,\"width\":416.29179331306995,\"height\":85.59270516717325,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"enlightenDataStoryDDFB78A6143E42CFAFBC50CCF18D978D\",\"projections\":{\"measure\":[{\"queryRef\":\"BaseFinanceiro.Quantidade de transações\"},{\"queryRef\":\"BaseFinanceiro.Transações pix\"},{\"queryRef\":\"BaseFinanceiro.% pix\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"BaseFinanceiro\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Quantidade de transações\"},\"Name\":\"BaseFinanceiro.Quantidade de transações\",\"NativeReferenceName\":\"Quantidade de transações\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Transações pix\"},\"Name\":\"BaseFinanceiro.Transações pix\",\"NativeReferenceName\":\"Transações pix\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"% pix\"},\"Name\":\"BaseFinanceiro.% pix\",\"NativeReferenceName\":\"% pix\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Quantidade de transações\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"story\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'O número de transações foi de #, das quais # foram feitas via PIX, o que representa # das movimentações.'\"}}},\"fontcolour\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}},\"align\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Arial'\"}}}}}],\"data\":[{\"properties\":{\"fontcolour\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 85.59,
+          "width": 416.29,
+          "x": 831.61,
+          "y": 161.46,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"65353ff95ad56a2214e8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":23.28840970350404,\"y\":7.762803234501347,\"z\":9000,\"width\":1233.423180592992,\"height\":50.02695417789757,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"ScrollingTextVisual1448795304508\",\"projections\":{\"Measure Absolute\":[{\"queryRef\":\"BaseFinanceiro.Margem\"}],\"Measure Deviation\":[{\"queryRef\":\"BaseFinanceiro.Desvio da meta\"}],\"Category\":[{\"queryRef\":\"BaseFinanceiro.Município\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"BaseFinanceiro\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Margem\"},\"Name\":\"BaseFinanceiro.Margem\",\"NativeReferenceName\":\"Margem\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Desvio da meta\"},\"Name\":\"BaseFinanceiro.Desvio da meta\",\"NativeReferenceName\":\"Desvio da meta\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Município\"},\"Name\":\"BaseFinanceiro.Município\",\"NativeReferenceName\":\"Município\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Margem\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"scroller\":[{\"properties\":{\"pBgColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#032030'\"}}}}},\"pShouldAutoSizeFont\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"pSpeed\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 50.03,
+          "width": 1233.42,
+          "x": 23.29,
+          "y": 7.76,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"822d7590288da93750c1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":383.2218844984803,\"y\":15.562310030395137,\"z\":0,\"width\":256.7781155015198,\"height\":149.7872340425532,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"BaseFinanceiro.Pagamento\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"BaseFinanceiro\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Pagamento\"},\"Name\":\"BaseFinanceiro.Pagamento\",\"NativeReferenceName\":\"Pagamento\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Pagamento\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 149.79,
+          "width": 256.78,
+          "x": 383.22,
+          "y": 15.56,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"b3322a5a12acd20de657\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.72644376899696,\"y\":90.45592705167174,\"z\":7000,\"width\":540.790273556231,\"height\":383.2218844984803,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"ImageGrid_FC5183B9_926C_45E0_B5F7_0CE9EAF1DA9B\",\"projections\":{\"ImageURLHQ\":[{\"queryRef\":\"BaseFinanceiro.Imagem\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"BaseFinanceiro\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Imagem\"},\"Name\":\"BaseFinanceiro.Imagem\",\"NativeReferenceName\":\"Imagem\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"settings\":[{\"properties\":{\"pRenderType\":{\"expr\":{\"Literal\":{\"Value\":\"'CIRCLE'\"}}},\"pHQMinWidth\":{\"expr\":{\"Literal\":{\"Value\":\"200D\"}}},\"pMaxColumns\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 383.22,
+          "width": 540.79,
+          "x": 9.73,
+          "y": 90.46,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"b51db370e30cbcd8a180\",\"layouts\":[{\"id\":0,\"position\":{\"x\":612.7659574468086,\"y\":236.35258358662614,\"z\":5000,\"width\":145.89665653495442,\"height\":95.31914893617022,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"BaseFinanceiro.Margem\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"BaseFinanceiro\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Margem\"},\"Name\":\"BaseFinanceiro.Margem\",\"NativeReferenceName\":\"Margem\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Margem\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"25D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 95.32,
+          "width": 145.90,
+          "x": 612.77,
+          "y": 236.35,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"c4a64e849d14881c700c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":23.343465045592705,\"y\":430.8814589665654,\"z\":4000,\"width\":1233.3130699088147,\"height\":266.5045592705167,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"waterfallChart\",\"projections\":{\"Y\":[{\"queryRef\":\"BaseFinanceiro.Lucro\"}],\"Category\":[{\"queryRef\":\"BaseFinanceiro.Data da Movimentacao.Variation.Hierarquia de datas.Mês\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"BaseFinanceiro\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Lucro\"},\"Name\":\"BaseFinanceiro.Lucro\",\"NativeReferenceName\":\"Lucro\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Name\":\"Variation\",\"Property\":\"Data da Movimentacao\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Mês\"},\"Name\":\"BaseFinanceiro.Data da Movimentacao.Variation.Hierarquia de datas.Mês\",\"NativeReferenceName\":\"Data da Movimentacao Mês\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"sentimentColors\":[{\"properties\":{\"increaseFill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#4386AB'\"}}}}},\"decreaseFill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#F9021B'\"}}}}},\"totalFill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#039593'\"}}}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 266.50,
+          "width": 1233.31,
+          "x": 23.34,
+          "y": 430.88,
+          "z": 4000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ],
+  "theme": "Custom3282061126661402.json"
+}
